@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="600.0" prefWidth="700.0" stylesheets="@../application.css" xmlns="http://javafx.com/javafx/8.0.51" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.GameSceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="37.0" layoutX="281.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: lightgray;" width="137.0" />
+      <Label fx:id="scoreLabel" layoutX="289.0" layoutY="22.0" text="Score: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Region fx:id="tableauColumn1" layoutX="47.0" layoutY="222.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="tableauColumn2" layoutX="136.0" layoutY="222.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="tableauColumn3" layoutX="225.0" layoutY="222.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="tableauColumn4" layoutX="314.0" layoutY="222.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="tableauColumn5" layoutX="403.0" layoutY="222.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="tableauColumn6" layoutX="493.0" layoutY="222.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="tableauColumn7" layoutX="583.0" layoutY="222.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="stockPile" layoutX="47.0" layoutY="78.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="wastePile" layoutX="136.0" layoutY="79.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="foundationClubs" layoutX="314.0" layoutY="79.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="foundationDiamonds" layoutX="583.0" layoutY="79.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="foundationHearts" layoutX="493.0" layoutY="79.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="foundationSpades" layoutX="403.0" layoutY="79.0" prefHeight="105.0" prefWidth="70.0" style="-fx-border-color: black;" />
+      <Region fx:id="endRegion" layoutX="628.0" layoutY="15.0" onMouseClicked="#toMainMenu" prefHeight="35.0" prefWidth="50.0" />
+      <ImageView layoutX="636.0" layoutY="15.0" onMouseClicked="#toMainMenu">
+         <image>
+            <Image url="@../../../assets/backgrounds/endbutton.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane fx:id="mainMenuAP" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.51" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainMenuController">
+   <children>
+      <MediaView fx:id="bgMV" fitHeight="600.0" fitWidth="700.0" />
+      <Region fx:id="playRegion" layoutX="220.0" layoutY="267.0" onMouseClicked="#doPlay" prefHeight="54.0" prefWidth="257.0" />
+      <Region fx:id="howToPlayRegion" layoutX="220.0" layoutY="339.0" onMouseClicked="#doTutorial" prefHeight="54.0" prefWidth="257.0" />
+      <Region fx:id="viewHighScoresRegion" layoutX="220.0" layoutY="409.0" onMouseClicked="#doHighScores" prefHeight="54.0" prefWidth="257.0" />
+      <Region fx:id="quitRegion" layoutX="220.0" layoutY="481.0" onMouseClicked="#doQuit" prefHeight="54.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>
