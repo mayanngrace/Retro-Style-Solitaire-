@@ -1,0 +1,10 @@
+Player=30
+Player=20
+Pao=15
+Player=15
+p10=10
+p9=9
+p8=8
+p7=7
+p6=6
+p5=5
