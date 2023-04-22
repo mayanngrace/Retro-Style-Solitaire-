@@ -7,9 +7,10 @@ A retro-style version of the card game Solitaire coded using Java language and J
 3. Exit function
 4. Can have a waste pile of 3 cards at a time or 1 at a time
 5. Scoring System 
+
 ![image](https://user-images.githubusercontent.com/102021376/233768447-b99c4dc0-20c6-4985-8a9c-66f1d369738c.png)
 
-##How To Run
+## How To Run
 
 In CMD from folder, type: 
 
