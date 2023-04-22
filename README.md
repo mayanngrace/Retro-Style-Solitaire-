@@ -1,5 +1,5 @@
 # Retro-Style-Solitaire-Game
-A retro-style version of the card game Solitaire coded using Java language and JavaFX GUI. It has a pixel art theme that gives out a retro-style vibe while functioning just as the same as the Solitaire game in desktop versions where the goal is to arrange the cards in some systematic way to win.
+A retro-style version of the desktop card game Solitaire programmed using Java language and JavaFX GUI. It has a pixel art theme that gives out a retro vibe while implementing its original card deck functionalities. The objective of the game is to organize a randomly shuffled deck of cards in ascending order and build a foundation for each into four piles. 
 
 ## Project Specifications
 1. Has a new game function
@@ -12,6 +12,4 @@ A retro-style version of the card game Solitaire coded using Java language and J
 
 ## How To Run
 
-In CMD from folder, type: 
-
-java -jar Solitaire.jar
+In CMD from folder, type:  java -jar Solitaire.jar
